@@ -201,6 +201,7 @@ talent-agent/
 ## 🚀 Future Improvements
 
 * 📊 Skill gap visualization dashboard
+* As there are no live candidates so I have shown a conversation between an AI Recruiter Agent and AI Candidate Agent. The Candidate Agent will be replaced by real candidates.
 * 🏆 Top candidate highlight
 * 💬 Real-time streaming chat
 * 📄 Resume preview in UI
@@ -226,7 +227,6 @@ talent-agent/
 ## 📌 Notes
 
 * Resumes should be placed in `backend/data/resumes/`
-* Candidate names are derived from PDF filenames
 * Ensure backend is running before frontend
 
 ---
