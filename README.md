@@ -6,6 +6,10 @@ An AI-powered recruitment assistant that analyzes resumes, ranks candidates, and
 
 ---
 
+<p align="center">
+  <img src="./screenshots/talentagent.gif" width="700"/>
+</p>
+
 ## 🚀 Problem
 
 Recruiters spend hours:
