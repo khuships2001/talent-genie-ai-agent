@@ -182,6 +182,21 @@ npm run dev
 ```
 
 ---
+🌐 Application URLs
+
+Frontend (React App)
+Runs on:
+
+http://localhost:5173
+
+Backend (FastAPI Server)
+Runs on:
+
+http://127.0.0.1:8001
+
+🔗 How They Connect
+
+The frontend sends API requests to the backend at http://127.0.0.1:8001/analyze using Axios.
 
 ## 📂 Project Structure
 
@@ -256,3 +271,47 @@ and enables faster, smarter hiring decisions using AI.
 <p align="center">
   <img src="./screenshots/SS3.jpeg" width="200"/>
 </p>
+
+📥 Sample Input (Job Description)
+We are seeking an innovative C++ Developer to design and develop high-end applications.
+
+Key Responsibilities:
+- Develop efficient and reliable C++ code
+- Optimize performance and memory usage
+- Collaborate with cross-functional teams
+- Debug and upgrade existing systems
+
+Required Skills:
+- Strong proficiency in C++
+- Knowledge of STL and modern C++ standards
+- Understanding of multithreading and memory management
+- Experience with Git and testing frameworks
+📤 Sample Output
+[
+  {
+    "name": "Ajaydeep",
+    "final_score": 82.5,
+    "match_score": 90,
+    "interest_score": 60,
+    "matched_skills": ["c++", "multithreading", "git"],
+    "missing_skills": ["stl"],
+    "reason": "Strong C++ background with good system-level understanding"
+  },
+  {
+    "name": "Sanchita Samman",
+    "final_score": 70,
+    "match_score": 75,
+    "interest_score": 60,
+    "matched_skills": ["c++"],
+    "missing_skills": ["multithreading", "git"],
+    "reason": "Basic C++ knowledge but lacks system-level experience"
+  }
+]
+💬 Sample AI Interview Chat
+Recruiter: What is your experience with multithreading in C++?
+
+Ajaydeep: I have worked on concurrent systems using threads and mutex locks to ensure safe execution...
+
+Recruiter: How do you handle memory management in C++?
+
+Ajaydeep: I use smart pointers and follow RAII principles to avoid memory leaks.
